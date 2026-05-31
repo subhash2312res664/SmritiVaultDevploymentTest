@@ -11,7 +11,7 @@ import LiveCamera  from './pages/LiveCamera.jsx'
 import ItemHistory from './pages/ItemHistory.jsx'
 import OfflineBanner from './components/OfflineBanner.jsx'
 import { setupSyncListeners, syncPendingLogs, refreshLocalCache } from './Services/syncService.js'
-import { getPendingLogs, isOnline } from './services/localDB.js'
+import { getPendingLogs, isOnline } from './Services/localDB.js'
 
 function PrivateRoute({ children }) {
   return localStorage.getItem('token')

@@ -10,7 +10,7 @@ import Camera      from './pages/Camera.jsx'
 import LiveCamera  from './pages/LiveCamera.jsx'
 import ItemHistory from './pages/ItemHistory.jsx'
 import OfflineBanner from './components/OfflineBanner.jsx'
-import { setupSyncListeners, syncPendingLogs, refreshLocalCache } from './services/syncService.js'
+import { setupSyncListeners, syncPendingLogs, refreshLocalCache } from './Services/syncService.js'
 import { getPendingLogs, isOnline } from './services/localDB.js'
 
 function PrivateRoute({ children }) {
